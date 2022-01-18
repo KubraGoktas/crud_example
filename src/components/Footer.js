@@ -10,7 +10,7 @@ import gt from "../assets/img/DEFAULT.png"
 
 const Footer = () => {
   return (
-    <div className="container">
+    <div className="container" style={{paddingLeft:'120px',paddingRight:'120px'}}>
       <div style={{ display: "flex", justifyContent: "space-between",alignItems:'center' }}>
         <div
           style={{

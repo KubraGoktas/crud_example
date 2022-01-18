@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
+import CustomModal from "../components/CustomModal";
 import { getPosts } from "../services/PostService";
 
 const Home = () => {
   const [posts, setposts] = useState([]);
+  const [open, setOpen] = useState(false)
   useEffect(() => {
     getPosts().then((res) => setposts(res.data));
   }, []);
@@ -38,12 +40,13 @@ const Home = () => {
               <Link className="btn" to={`/post/${item.id}`}>
                 Detay
               </Link>
-              <Button color="primary">Düzenle</Button>
+              <Button color="primary" onClick={()=>setOpen(true)}>Düzenle</Button>
               <Button color="primary">Sil</Button>
             </div>
           </div>
         );
       })}
+      <CustomModal open={open} setOpen={setOpen}/>
     </div>
   );
 };
