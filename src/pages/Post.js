@@ -2,9 +2,9 @@ import React from 'react'
 
 const Post = () => {
     return (
-        <div>
-           post 
-        </div>
+        <div className="box p-1">
+      ddd
+    </div>
     )
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 import img from "../assets/img/bg.png";
 import logo from "../assets/img/logo.png";
@@ -12,7 +13,7 @@ const Navbar = () => {
       >
         <div>
           <img width={"50%"} src={logo} />
-          <span style={{fontSize:'10px',marginLeft:'40px',color:'white'}}>Posts</span>
+          <a href={'/'} style={{fontSize:'10px',marginLeft:'40px',color:'white',textDecoration:'none'}}>Posts</a>
         </div>
         <div>
             <Button style={{backgroundColor:'white',border:'none',color:'#5E72E4',fontSize:'14px'}}>Login</Button>
