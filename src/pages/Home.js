@@ -15,6 +15,7 @@ const Home = () => {
       {posts.slice(0, 6).map((item, key) => {
         return (
           <div
+          key={key}
             style={{
               display: "flex",
               height: "16.67%",
