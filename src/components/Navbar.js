@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="navbar" style={{ height: "100%", width: "100%" }}>
       <div
         className="container mt-4"
-        style={{ position: "relative", width: "100%", display: "flex",zIndex:10 }}
+        style={{ position: "relative", width: "100%", display: "flex",zIndex:10,paddingLeft:'120px',paddingRight:'120px' }}
       >
         <div>
           <img width={"50%"} src={logo} />

@@ -13,15 +13,16 @@ function App() {
         style={{
           position: "relative",
           width: "100%",
-          height: "100%",
+          height: "80%",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
         }}
       >
+        
         <AppRouter />
       </div>
-      <div>
+      <div style={{height:'20%'}}>
         <Footer />
       </div>
     </>

@@ -1,33 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-
-.footer-posts{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 16.41px;
-    letter-spacing: -0.4px;
-    color: #8898AA;
+.footer-posts {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: -0.4px;
+  color: #8898aa;
 }
-.thanks{
-    
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 33px;
-    letter-spacing: -0.45px;
-    padding-bottom: 1%;
-    color: #00CDAC;
-    
+.thanks {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.45px;
+  padding-bottom: 1%;
+  color: #00cdac;
 }
 
-.lets{
+.lets {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #32325d;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 15px 35px rgba(50, 50, 93, 0.1),
+    0px 5px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  width:70%;
+  height:60%;
+  /* padding: 1%; */
+}
+.act-button button:nth-child(1){    
+    background: #5E72E4;
+}
+.act-button button{
+
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.08), 0px 4px 4px rgba(50, 50, 93, 0.11);
+    border-radius: 3px;
+    border: none;
+}
+.act-button button:nth-child(2){    
+    background: #2DCE89;
+
     
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    line-height: 26px;
-    
-    color: #32325D;
+}
+.act-button button:nth-child(3){ 
+    background: #FB6340;
     
 }
