@@ -16,8 +16,13 @@ const Post = () => {
   }, [])
 
   return (
-    <div className="box p-1">
-      
+    <div className="box p-5">
+      <div style={{display:'flex',padding:'1%'}}>
+        <img style={{borderRadius:'25px'}} width={50} height={50} src='https://picsum.photos/200' />
+        <span style={{fontWeight:'bolder',color:'gray',paddingLeft:'15px'}}>{user.name}<br/><span style={{fontWeight:'lighter',fontSize:'12px'}}>01.01.2021</span></span>
+      </div>
+      <span>{post.title}</span>
+      <p>{post.body}</p>
     </div>
   )
 }
