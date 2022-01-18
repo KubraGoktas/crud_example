@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 import { getPosts } from "../services/PostService";
 
@@ -34,7 +35,9 @@ const Home = () => {
                 display: "flex",
               }}
             >
-              <Button color="primary">Detay</Button>
+              <Link className="btn" to={`/post/${item.id}`}>
+                Detay
+              </Link>
               <Button color="primary">Düzenle</Button>
               <Button color="primary">Sil</Button>
             </div>

@@ -27,9 +27,9 @@ const Footer = () => {
         </div>
         <div>
         
-          <img src={fc} />
-          <img src={db} />
-          <img src={gt} />
+          <img width={40} src={fc} />
+          <img width={40} src={db} />
+          <img width={40} src={gt} />
         </div>
       </div>
 

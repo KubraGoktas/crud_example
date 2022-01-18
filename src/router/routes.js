@@ -7,6 +7,7 @@ const Post=React.lazy(()=>import("../pages/Post"))
 
 
 
+
 export const routes = [
     {
          path: "post/:id",
