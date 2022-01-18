@@ -59,3 +59,7 @@
     background: #FB6340;
     
 }
+
+.modal-footer{
+    justify-content: flex-start !important;
+}
