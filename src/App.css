@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.footer-posts{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: -0.4px;
+    color: #8898AA;
+}
+.thanks{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.45px;
+    padding-bottom: 1%;
+    color: #00CDAC;
+    
+}
+
+.lets{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    
+    color: #32325D;
+    
+}
