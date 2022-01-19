@@ -35,7 +35,7 @@
     0px 5px 15px rgba(0, 0, 0, 0.07);
   border-radius: 4px;
   width:70%;
-  height:60%;
+  height:65%;
   /* padding: 1%; */
 }
 .act-button .btn:nth-child(1){    
@@ -62,4 +62,61 @@
 
 .modal-footer{
     justify-content: flex-start !important;
+}
+.name{
+
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 38px;
+color: #32325D;
+}
+.city{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+color: #32325D;
+}
+
+.user-info{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+letter-spacing: 0.1px;
+
+color: #ADB5BD;
+}
+
+.desc{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 27px;
+/* or 169% */
+
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #525F7F;
+}
+.show-more{
+  
+font-family: Open Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 13px;
+line-height: 22px;
+
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #4A90E2;
 }
